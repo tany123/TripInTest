@@ -1,0 +1,50 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+
+    <!-- New text font sizes -->
+    <dimen name="xxxlarge_text">32sp</dimen>
+    <dimen name="xxlarge_text">30sp</dimen>
+    <dimen name="xlarge_text">26sp</dimen>
+    <dimen name="large_text">22sp</dimen>
+    <dimen name="regular_text">20sp</dimen>
+    <dimen name="small_text">18sp</dimen>
+    <dimen name="xsmall_text">16sp</dimen>
+    <dimen name="xxsmall_text">14sp</dimen>
+
+    <!-- Custom Progress Dialog -->
+    <dimen name="dialog_txt_msg_width">500dp</dimen>
+    <dimen name="alert_icon_size">-50dp</dimen>
+    <dimen name="alert_icon_size_positive">50dp</dimen>
+    <dimen name="layout_margin_dimen">10dp</dimen>
+
+    <!-- Login Module -->
+    <dimen name="edt_height">60dp</dimen>
+
+    <!-- Login List Screen -->
+    <dimen name="home_group_padding_height">20dp</dimen>
+    <dimen name="home_group_padding_width">15dp</dimen>
+    <dimen name="dashboard_sub_title_width_padding">15dp</dimen>
+    <dimen name="dashboard_sub_title_height_padding">20dp</dimen>
+    <dimen name="tab_img_padding">5dp</dimen>
+    <dimen name="tab_padding">5dp</dimen>
+    <dimen name="tab_item_padding">5dp</dimen>
+    <dimen name="group_child_padding">10dp</dimen>
+    <dimen name="dashboard_popup_layout_padding">15dp</dimen>
+    <dimen name="dashboard_popup_txt_padding">12dp</dimen>
+    <dimen name="dashboard_popup_layout_margin">28dp</dimen>
+    <dimen name="dashboard_drawer_txt_height">88dp</dimen>
+    <dimen name="dashboard_drawer_txt_end_height">92dp</dimen>
+    <dimen name="dashboard_drawer_txt_layout_top_padding">8dp</dimen>
+    <dimen name="dashboard_drawer_txt_layout_bottom_padding">4dp</dimen>
+    <dimen name="dashboard_drawer_txt_padding">40dp</dimen>
+    <dimen name="dashboard_title_padding">12dp</dimen>
+
+    <!-- Select Mobile Number -->
+    <dimen name="select_mob_tv_tab_width">90dp</dimen>
+
+</resources>

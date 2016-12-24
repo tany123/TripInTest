@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlStart"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@color/green"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rlStart_img"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/ivStart_Blur"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.5"
+                android:src="@drawable/ic_white_circle"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/ivStart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp" />
+
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ivStart"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtStartName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/rlStart_img"
+            android:text="Sarkar Factory"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_text" />
+
+        <TextView
+            android:id="@+id/txtStartAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStartName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/rlStart_img"
+            android:text="301, Summit Business Bay, Near metro station, Rajkot- 3800076"
+            android:textColor="@color/dark_green"
+            android:textSize="@dimen/regular_text" />
+
+        <TextView
+            android:id="@+id/txtStartContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStartAddress"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/rlStart_img"
+            android:text="Sarkar Factory"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xsmall_text" />
+
+        <TextView
+            android:id="@+id/txtStartContactNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStartAddress"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/txtStartContactName"
+            android:text="Sarkar Factory"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xsmall_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignLeft="@+id/txtStartContactName"
+            android:layout_alignParentBottom="true"
+            android:background="@color/dark_green" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlStops"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/green"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rlStops_img"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:id="@+id/ivStop_Blur"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.5"
+                android:src="@drawable/ic_white_circle"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ivStops"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white" />
+
+            <ImageView
+                android:id="@+id/ivStops"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivStops"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtStopsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/rlStops_img"
+            android:text="Sarkar Factory"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_text" />
+
+        <TextView
+            android:id="@+id/txtStopsAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStopsName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/rlStops_img"
+            android:text="Sarkar Factory"
+            android:textColor="@color/dark_green"
+            android:textSize="@dimen/small_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignLeft="@+id/txtStopsAddress"
+            android:layout_alignParentBottom="true"
+            android:background="@color/dark_green" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlDestination"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/red"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/llDestination"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:id="@+id/ivDestination_Blur"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.5"
+                android:src="@drawable/ic_white_circle"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ivDestination"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white" />
+
+            <ImageView
+                android:id="@+id/ivDestination"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtDestinationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/llDestination"
+            android:text="Sarkar Factory"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_text" />
+
+        <TextView
+            android:id="@+id/txtDestinationAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDestinationName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/llDestination"
+            android:text="Sarkar Factory"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/small_text" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

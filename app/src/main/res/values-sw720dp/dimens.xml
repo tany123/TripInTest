@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New text font sizes -->
+    <dimen name="xxxlarge_text">35sp</dimen>
+    <dimen name="xxlarge_text">33sp</dimen>
+    <dimen name="xlarge_text">29sp</dimen>
+    <dimen name="large_text">25sp</dimen>
+    <dimen name="regular_text">23sp</dimen>
+    <dimen name="small_text">21sp</dimen>
+    <dimen name="xsmall_text">19sp</dimen>
+    <dimen name="xxsmall_text">17sp</dimen>
+
+</resources>

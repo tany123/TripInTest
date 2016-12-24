@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TripIn Test</string>
+    <string name="title_activity__trip">Trip</string>
+    <string name="start_trip">START TRIP</string>
+</resources>

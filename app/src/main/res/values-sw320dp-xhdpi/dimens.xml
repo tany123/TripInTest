@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Large size text font sizes -->
+    <dimen name="xxxlarge_text">33sp</dimen>
+    <dimen name="xxlarge_text">31sp</dimen>
+    <dimen name="xlarge_text">21sp</dimen>
+    <dimen name="large_text">19sp</dimen>
+    <dimen name="regular_text">17sp</dimen>
+    <dimen name="small_text">15sp</dimen>
+    <dimen name="xsmall_text">13sp</dimen>
+    <dimen name="xxsmall_text">11sp</dimen>
+
+
+</resources>
